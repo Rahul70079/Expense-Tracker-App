@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Search App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 Movie Search</h1>
+    <input type="text" id="searchInput" placeholder="Enter movie name...">
+    <button id="searchBtn">Search</button>
+
+    <div id="movieList" class="movie-list"></div>
+
+    <!-- Pagination Controls -->
+    <div id="pagination" class="pagination">
+      <button id="prevBtn">⬅ Prev</button>
+      <span id="pageInfo">Page 1</span>
+      <button id="nextBtn">Next ➡</button>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="movieModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

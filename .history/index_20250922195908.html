@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>💰 Expense Tracker</h1>
+
+    <div class="balance">
+      <h2>Balance: <span id="balance">0</span> ₹</h2>
+    </div>
+
+    <div class="form">
+      <input type="text" id="desc" placeholder="Description">
+      <input type="number" id="amount" placeholder="Amount">
+      <select id="type">
+        <option value="income">Income</option>
+        <option value="expense">Expense</option>
+      </select>
+      <button id="addBtn">Add</button>
+    </div>
+
+    <!-- 🔹 Month Filter -->
+    <div class="filter">
+      <label for="monthFilter">Select Month:</label>
+      <select id="monthFilter">
+        <option value="all">All</option>
+        <option value="0">January</option>
+        <option value="1">February</option>
+        <option value="2">March</option>
+        <option value="3">April</option>
+        <option value="4">May</option>
+        <option value="5">June</option>
+        <option value="6">July</option>
+        <option value="7">August</option>
+        <option value="8">September</option>
+        <option value="9">October</option>
+        <option value="10">November</option>
+        <option value="11">December</option>
+      </select>
+    </div>
+
+    <h3>Transactions</h3>
+    <ul id="transactions"></ul>
+
+    <h3>Summary</h3>
+    <canvas id="myChart" width="400" height="200"></canvas>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
