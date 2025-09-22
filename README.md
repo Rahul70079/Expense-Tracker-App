@@ -66,21 +66,6 @@ This project is licensed under the MIT License.
 
 ---
 
-## 3️⃣ GitHub Steps to Post
-
-1. Create a new repository on GitHub (e.g., `expense-tracker`).  
-
-2. Initialize git in your project folder:
-```bash
-git init
-git add .
-git commit -m "Initial commit: Expense Tracker App with TypeScript & Chart.js"
-
- 3.Link remote repository and push:
-
-git remote add origin https://github.com/Rahul70079/Expense-Tracker-App
-git branch -M main
-git push -u origin main
 
 
 
