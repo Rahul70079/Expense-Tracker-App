@@ -1,0 +1,82 @@
+expense-tracker/
+│── index.html
+│── style.css
+│── app.ts
+│── app.js                Note --- (compiled from app.ts)
+│── README.md
+
+
+# Expense Tracker App 💰
+
+A simple **Expense Tracker Web App** built with **TypeScript**, **HTML**, **CSS**, and **Chart.js**.  
+You can add your income and expenses, view your balance, and see a graphical summary.  
+All data is saved in **LocalStorage**, and you can filter transactions by **Month**.
+
+---
+
+## Features
+
+- Add **Income** and **Expense** transactions.
+- **Balance calculation**: Income - Expense.
+- **Transactions list** with delete option.
+- **Pie Chart** using Chart.js for Income vs Expense.
+- **Monthly Filter** to view transactions of a selected month.
+- **LocalStorage support** to save data even after page refresh.
+
+  ---
+
+## How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/expense-tracker.git
+   cd expense-tracker
+
+  2. Install TypeScript (if not installed):
+     npm install -g typescript
+
+  3.Compile TypeScript:
+    tsc app.ts
+
+   4. Open index.html in your browser:
+     . Either double-click the file
+      . Or use a local server:
+      npx serve . -p 5500
+
+      Then open http://localhost:5500 in your browser.
+
+
+Demo Screenshot
+Tech Stack
+
+TypeScript
+HTML5
+CSS3
+Chart.js
+LocalStorage API
+
+License
+
+This project is licensed under the MIT License.
+
+---
+
+## 3️⃣ GitHub Steps to Post
+
+1. Create a new repository on GitHub (e.g., `expense-tracker`).  
+
+2. Initialize git in your project folder:
+```bash
+git init
+git add .
+git commit -m "Initial commit: Expense Tracker App with TypeScript & Chart.js"
+
+ 3.Link remote repository and push:
+
+git remote add origin https://github.com/yourusername/expense-tracker.git
+git branch -M main
+git push -u origin main
+
+
+
+
