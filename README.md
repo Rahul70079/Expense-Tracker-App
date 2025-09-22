@@ -1,75 +1,75 @@
-expense-tracker/
+Description:
 
-│── index.html
-                                 Note ------ (compiled from app.ts)
-│── style.css
+A modern, TypeScript-based Expense Tracker Web App with LocalStorage support and interactive Chart.js visualizations for managing income and expenses efficiently.
 
-│── app.ts
+✅ GitHub Topics / Tags
 
-│── app.js  
-                           
-
-
-
-# Expense Tracker App 💰
-
-A simple **Expense Tracker Web App** built with **TypeScript**, **HTML**, **CSS**, and **Chart.js**.  
-You can add your income and expenses, view your balance, and see a graphical summary.  
-All data is saved in **LocalStorage**, and you can filter transactions by **Month**.
-
----
+TypeScript
+Expense-Tracker
+Web-App
+Chart.js
+Finance
+Budget-Tracker
+LocalStorage
+HTML5
+CSS3
+Frontend
+Personal-Finance
+Money-Management
 
 ## Features
 
 - Add **Income** and **Expense** transactions.
 - **Balance calculation**: Income - Expense.
-- **Transactions list** with delete option.
+- **Transaction list** with delete functionality.
 - **Pie Chart** using Chart.js for Income vs Expense.
-- **Monthly Filter** to view transactions of a selected month.
-- **LocalStorage support** to save data even after page refresh.
-
-  ---
-
-## How to Run Locally
-
-  1. Clone the repository:
-   ```bash
-   https://github.com/Rahul70079/Expense-Tracker-App
-   cd expense-tracker
-
-  2. Install TypeScript (if not installed):
-     npm install -g typescript
-
-  3.Compile TypeScript:
-    tsc app.ts
-
-   4. Open index.html in your browser:
-     . Either double-click the file
-      . Or use a local server:
-      npx serve . -p 5500
-
-      Then open http://localhost:5500 in your browser.
-
-
-    Tech Stack
-
-   TypeScript
-
-   HTML5
-
-   CSS3
-
-   Chart.js
-
-   LocalStorage API
-
-License
-
-This project is licensed under the MIT License.
+- **Monthly Filter** to view transactions for a specific month.
+- **LocalStorage support** for persistent data across browser refresh.
+- Responsive and easy-to-use UI.
 
 ---
 
+## Tech Stack
+
+- **TypeScript**
+- **HTML5**
+- **CSS3**
+- **Chart.js**
+- **LocalStorage API**
+
+  ## How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/expense-tracker.git
+   cd expense-tracker
+Install TypeScript (if not installed):
+
+bash
+Copy code
+npm install -g typescript
+Compile TypeScript:
+
+bash
+Copy code
+tsc app.ts
+Open index.html in your browser:
+
+Or use a local server:
+
+bash
+Copy code
+npx serve . -p 5500
+Open http://localhost:5500 in your browser.
+
+Topics / Tags
+TypeScript, Expense-Tracker, Web-App, Chart.js, Finance, Budget-Tracker, LocalStorage, HTML5, CSS3, Frontend, Personal-Finance, Money-Management
+
+License
+This project is licensed under the MIT License.
+
+yaml
+Copy code
 
 
-
-
+---
