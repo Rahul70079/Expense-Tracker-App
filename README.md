@@ -1,14 +1,14 @@
 expense-tracker/
 
 │── index.html
-
+                                 Note ------ (compiled from app.ts)
 │── style.css
 
 │── app.ts
 
 │── app.js  
-                            Note --- (compiled from app.ts)
-│── README.md
+                           
+
 
 
 # Expense Tracker App 💰
