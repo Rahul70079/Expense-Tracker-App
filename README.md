@@ -1,8 +1,13 @@
 expense-tracker/
+
 │── index.html
+
 │── style.css
+
 │── app.ts
-│── app.js                Note --- (compiled from app.ts)
+
+│── app.js  
+                            Note --- (compiled from app.ts)
 │── README.md
 
 
@@ -29,7 +34,7 @@ All data is saved in **LocalStorage**, and you can filter transactions by **Mont
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/expense-tracker.git
+   https://github.com/Rahul70079/Expense-Tracker-App
    cd expense-tracker
 
   2. Install TypeScript (if not installed):
@@ -73,7 +78,7 @@ git commit -m "Initial commit: Expense Tracker App with TypeScript & Chart.js"
 
  3.Link remote repository and push:
 
-git remote add origin https://github.com/yourusername/expense-tracker.git
+git remote add origin https://github.com/Rahul70079/Expense-Tracker-App
 git branch -M main
 git push -u origin main
 
