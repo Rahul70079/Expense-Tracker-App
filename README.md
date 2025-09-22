@@ -41,7 +41,7 @@ Money-Management
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/expense-tracker.git
+   git clone https://github.com/Rahul70079/Expense-Tracker-App
    cd expense-tracker
 Install TypeScript (if not installed):
 
@@ -68,8 +68,3 @@ TypeScript, Expense-Tracker, Web-App, Chart.js, Finance, Budget-Tracker, LocalSt
 License
 This project is licensed under the MIT License.
 
-yaml
-Copy code
-
-
----
