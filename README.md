@@ -32,7 +32,7 @@ All data is saved in **LocalStorage**, and you can filter transactions by **Mont
 
 ## How to Run Locally
 
-1. Clone the repository:
+  1. Clone the repository:
    ```bash
    https://github.com/Rahul70079/Expense-Tracker-App
    cd expense-tracker
@@ -51,14 +51,17 @@ All data is saved in **LocalStorage**, and you can filter transactions by **Mont
       Then open http://localhost:5500 in your browser.
 
 
-Demo Screenshot
-Tech Stack
+    Tech Stack
 
-TypeScript
-HTML5
-CSS3
-Chart.js
-LocalStorage API
+   TypeScript
+
+   HTML5
+
+   CSS3
+
+   Chart.js
+
+   LocalStorage API
 
 License
 
