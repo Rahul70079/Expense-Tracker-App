@@ -32,9 +32,13 @@ Money-Management
 ## Tech Stack
 
 - **TypeScript**
+- 
 - **HTML5**
+- 
 - **CSS3**
+- 
 - **Chart.js**
+- 
 - **LocalStorage API**
 
   ## How to Run Locally
@@ -47,19 +51,24 @@ Install TypeScript (if not installed):
 
 bash
 Copy code
+
 npm install -g typescript
+
 Compile TypeScript:
 
 bash
 Copy code
 tsc app.ts
+
 Open index.html in your browser:
 
 Or use a local server:
 
 bash
 Copy code
+
 npx serve . -p 5500
+
 Open http://localhost:5500 in your browser.
 
 Topics / Tags
