@@ -32,13 +32,9 @@ Money-Management
 ## Tech Stack
 
 - **TypeScript**
-- 
 - **HTML5**
-- 
 - **CSS3**
-- 
 - **Chart.js**
-- 
 - **LocalStorage API**
 
   ## How to Run Locally
