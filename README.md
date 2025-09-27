@@ -63,8 +63,10 @@ npx serve . -p 5500
 Open http://localhost:5500 in your browser.
 
 Topics / Tags
+
 TypeScript, Expense-Tracker, Web-App, Chart.js, Finance, Budget-Tracker, LocalStorage, HTML5, CSS3, Frontend, Personal-Finance, Money-Management
 
 License
+
 This project is licensed under the MIT License.
 
