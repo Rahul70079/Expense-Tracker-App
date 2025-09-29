@@ -3,6 +3,7 @@ Description:
 A modern, TypeScript-based Expense Tracker Web App with LocalStorage support and interactive Chart.js visualizations for managing income and expenses efficiently.
 
 ✅ GitHub Topics / Tags
+
 TypeScript
 Expense-Tracker
 Web-App
